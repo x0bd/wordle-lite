@@ -1,0 +1,21 @@
+{
+	"solutions": [
+		{ "id": 1, "word": "hello" },
+		{ "id": 2, "word": "coins" },
+		{ "id": 3, "word": "pours" },
+		{ "id": 4, "word": "relax" },
+		{ "id": 5, "word": "cores" },
+		{ "id": 6, "word": "blame" },
+		{ "id": 7, "word": "spade" },
+		{ "id": 8, "word": "times" },
+		{ "id": 9, "word": "phone" },
+		{ "id": 10, "word": "blink" },
+		{ "id": 11, "word": "maize" },
+		{ "id": 12, "word": "pools" },
+		{ "id": 13, "word": "druid" },
+		{ "id": 14, "word": "drive" },
+		{ "id": 15, "word": "beach" },
+		{ "id": 16, "word": "retro" },
+		{ "id": 17, "word": "ninja" }
+	]
+}
