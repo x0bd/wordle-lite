@@ -4,8 +4,8 @@ import Row from "./Row";
 const Grid = ({ currentGuess, guesses, turn }) => {
 	return (
 		<div>
-			{guesses.map((guess, i) => {
-				return <Row key={i} />;
+			{guesses.map((g, i) => {
+				return <Row key={i} guess={g} />;
 			})}
 		</div>
 	);
