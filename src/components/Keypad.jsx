@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Keypad = () => {
+const Keypad = ({ usedKeys }) => {
 	const [letters, setLetters] = useState(null);
 
 	useEffect(() => {
@@ -15,7 +15,12 @@ const Keypad = () => {
 		<div className="keypad">
 			{letters &&
 				letters.map((l) => {
-					return <div key={l.key}>{l.key}</div>;
+					const color = usedKeys[l.key];
+					return (
+						<div className={color} key={l.key}>
+							{l.key}
+						</div>
+					);
 				})}
 		</div>
 	);
