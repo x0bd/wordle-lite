@@ -1,0 +1,43 @@
+.keypad {
+	max-width: 500px;
+	margin: 20px auto;
+	text-transform: uppercase;
+}
+
+.keypad > div {
+	font-weight: bold;
+	margin: 5px;
+	width: 35px;
+	height: 35px;
+	background: #fff;
+	color: #5ac85a;
+	display: inline-flex;
+	border-radius: 6px;
+	line-height: 50px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	border: 3px solid #5ac85a;
+}
+
+.keypad > div.green {
+	background: #5ac85a;
+	color: #fff;
+	border: 3px #5ac85a solid;
+	transition: all 0.3s ease-in;
+}
+
+.keypad > div.yellow {
+	background: #fff;
+	color: #5ac85a;
+	border: 3px #5ac85a solid;
+	transition: all 0.3s ease-in;
+}
+
+.keypad > div.grey {
+	border: 3px solid #555;
+	color: #555;
+	background: #fff;
+	transition: all 0.3s ease-in;
+}
