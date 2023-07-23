@@ -1,5 +1,6 @@
 import React from "react";
 import Row from "./Row";
+import "../css/grid.css";
 
 const Grid = ({ currentGuess, guesses, turn }) => {
 	return (
