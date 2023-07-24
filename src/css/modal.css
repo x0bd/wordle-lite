@@ -1,3 +1,11 @@
+/* 
+--orange: #f37b89;
+	--yellow: #f9b033;
+	--green: #80ccb5;
+	--accent-color: #ecefec;
+	--bgColor: #343d4f;
+*/
+
 .modal {
 	background: rgba(255, 255, 255, 0.7);
 	position: fixed;

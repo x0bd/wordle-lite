@@ -1,3 +1,11 @@
+/* 
+	--orange: #f37b89;
+	--yellow: #f9b033;
+	--green: #80ccb5;
+	--accent-color: #ecefec;
+	--bgColor: #343d4f;
+*/
+
 .row {
 	text-align: center;
 	display: flex;
@@ -5,41 +13,39 @@
 }
 
 .row > div {
-	color: #fff;
+	color: var(--bgColor);
 	display: flex;
-	width: 50px;
-	height: 50px;
-	border: 3px solid #5ac85a;
-	margin: 4px;
+	width: 5rem;
+	height: 5rem;
+	border: 0.3rem solid var(--accent-color);
+	background: var(--accent-color);
+	margin: 0.4rem;
 	text-align: center;
-	line-height: 60px;
+	line-height: 6rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 2em;
-	border-radius: 50%;
+	font-size: 2.4rem;
+	border-radius: 2rem;
 	align-items: center;
 	justify-content: center;
 }
 
-/* Correct is green background and greyish color */
 .row > div.green {
-	--background: #5ac85a;
-	--border-color: #5ac85a;
+	--background: var(--green);
+	--border-color: var(--green);
 	animation: flip 0.5s ease-out forwards;
 }
 
 .row > div.grey {
-	--background: #a1a1a1;
-	--border-color: #a1a1a1;
+	--background: var(--orange);
+	--border-color: var(--orange);
 	animation: flip 0.5s ease-out forwards;
 }
 
-/* Includes is normal background green border */
 .row > div.yellow {
-	--background: #eee;
-	--border-color: #5ac85a;
+	--background: var(--yellow);
+	--border-color: var(--yellow);
 	animation: flip 0.5s ease-out forwards;
-	--color: #5ac85a;
 }
 
 .row > div:nth-child(2) {
@@ -62,32 +68,32 @@
 @keyframes flip {
 	0% {
 		transform: rotateX(0deg);
-		background: #fff;
-		border-color: #333;
+		background: var(--accent-color);
+		border-color: var(--accent-color);
 	}
 	45% {
 		transform: rotateX(90deg);
-		background: #fff;
-		border-color: #333;
+		background: var(--accent-color);
+		border-color: var(--accent-color);
 	}
 	55% {
 		transform: rotateX(90deg);
 		background: var(--background);
 		border-color: var(var(--border-color));
-		color: #eee;
+		color: var(--accent-color);
 	}
 	100% {
 		transform: rotateX(0);
 		background: var(--background);
 		border-color: var(--border-color);
-		color: #eee;
+		color: var(--accent-color);
 	}
 }
 
 @keyframes bounce {
 	0% {
 		transform: scale(1);
-		border-color: #ddd;
+		border-color: var(--accent-color);
 	}
 
 	50% {
@@ -96,6 +102,6 @@
 
 	100% {
 		transform: scale(1);
-		border-color: #333;
+		border-color: var(--bgColor);
 	}
 }

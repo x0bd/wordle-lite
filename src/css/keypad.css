@@ -3,41 +3,45 @@
 	margin: 20px auto;
 	text-transform: uppercase;
 }
+/* 
+--orange: #f37b89;
+	--yellow: #f9b033;
+	--green: #80ccb5;
+	--accent-color: #ecefec;
+	--bgColor: #343d4f;
+*/
 
 .keypad > div {
 	font-weight: bold;
-	margin: 5px;
-	width: 35px;
-	height: 35px;
-	background: #fff;
-	color: #5ac85a;
+	margin: 0.5rem;
+	width: 3.5rem;
+	height: 3.5rem;
+	background: transparent;
+	color: var(--accent-color);
 	display: inline-flex;
-	border-radius: 6px;
-	line-height: 50px;
+	border-radius: 0.6rem;
+	line-height: 5rem;
 	border-radius: 50%;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: nowrap;
-	border: 3px solid #5ac85a;
+	border: 0.3px solid transparent;
 }
 
 .keypad > div.green {
-	background: #5ac85a;
-	color: #fff;
-	border: 3px #5ac85a solid;
+	color: var(--green);
+	border: 3px transparent;
 	transition: all 0.3s ease-in;
 }
 
 .keypad > div.yellow {
-	background: #fff;
-	color: #5ac85a;
-	border: 3px #5ac85a solid;
+	color: var(--yellow);
+	border: 3px transparent;
 	transition: all 0.3s ease-in;
 }
 
 .keypad > div.grey {
-	border: 3px solid #555;
-	color: #555;
-	background: #fff;
+	color: var(--orange);
+	border: 3px transparent;
 	transition: all 0.3s ease-in;
 }
