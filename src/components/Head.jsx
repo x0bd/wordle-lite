@@ -8,7 +8,9 @@ const Head = () => {
 				<div className="menu">📊</div>
 				<div className="settings">⚙️</div>
 			</div>
-			<div className="title">Wordle</div>
+			<div className="title">
+				Wor<span>dle</span>
+			</div>
 		</div>
 	);
 };
