@@ -6,6 +6,12 @@
 	--bgColor: #343d4f;
 */
 
+.app {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 .row {
 	text-align: center;
 	display: flex;

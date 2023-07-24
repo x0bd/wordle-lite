@@ -4,6 +4,7 @@ import Grid from "./Grid";
 import Keypad from "./Keypad";
 import Modal from "./Modal";
 
+
 const Wordle = ({ solution }) => {
 	const {
 		currentGuess,
@@ -38,8 +39,7 @@ const Wordle = ({ solution }) => {
 
 	return (
 		<div>
-			<div>solution - {solution}</div>
-			<div>current guess - {currentGuess}</div>
+			
 			<Grid
 				currentGuess={currentGuess}
 				guesses={guesses}
