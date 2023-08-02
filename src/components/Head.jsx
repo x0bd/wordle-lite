@@ -4,13 +4,7 @@ import "../css/head.css";
 const Head = () => {
 	return (
 		<div className="head">
-			<div className="nav">
-				<div className="menu">📊</div>
-				<div className="settings">⚙️</div>
-			</div>
-			<div className="title">
-				Wor<span>dle</span>
-			</div>
+			<h1 className="title">Wordle</h1>
 		</div>
 	);
 };

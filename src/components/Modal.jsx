@@ -3,8 +3,7 @@ import "../css/modal.css";
 
 const Modal = ({ isCorrect, turn, solution }) => {
 	const restart = () => {
-		// TODO FIX HERE
-		window.open(self);
+		window.location.reload();
 	};
 
 	return (
