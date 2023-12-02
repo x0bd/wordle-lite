@@ -1,41 +1,50 @@
 :root {
-	--orange: #f37b89;
-	--yellow: #f9b033;
-	--green: #80ccb5;
-	--accent-color: #ecefec;
+  --orange: #eb6f92;
+  --yellow: #f6c177;
+  --green: #31748f;
+  --accent-color: #e0def4;
 
-	/* Gradient Colors */
-	--start-color: #74b8c2;
-	--second-color: #8696c7;
-	--third-color: #d591b7;
-	--last-color: #6561b1;
-
-	--bgColor: #343d4f;
+  /* Gradient Colors */
+  --start-color: #eb6f92;
+  --second-color: #f6c177;
+  --third-color: #31748f;
+  --last-color: #6561b1;
+  --bgColor: #191724;
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
+}
+
+.title {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1.1;
+  background: linear-gradient(40deg, var(--second-color), var(--start-color));
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	text-align: center;
-	font-size: 1.6rem;
-	font-family: "M PLUS Rounded 1c", sans-serif;
-	font-weight: 900;
-	margin: 0;
-	background: var(--bgColor);
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  background: var(--bgColor);
 }
 
 h1 {
-	font-size: 3rem;
-	font-weight: 900;
-	padding: 2rem 0;
-	margin-bottom: 3rem;
-	color: var(--yellow);
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+  color: var(--yellow);
 }
